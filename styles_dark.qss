@@ -1,0 +1,116 @@
+
+/* ==================== TEMA GERAL – ESCURO ==================== */
+QWidget {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 11pt;
+    color: #f1f1f1;
+    background: #1e1e1e;
+}
+
+QMainWindow {
+    background: #1e1e1e;
+}
+
+/* ==================== LOGIN ==================== */
+QPushButton#btnEntrarGrande {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #22c55e, stop:1 #15803d);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 18px;
+    font-size: 20px;
+    font-weight: 700;
+}
+QPushButton#btnEntrarGrande:hover {
+    background: #166534;
+}
+
+QLineEdit#nomeInput {
+    font-size: 12pt;
+    background: #2d2d2d;
+    color: #f1f1f1;
+    border: 1px solid #4b5563;
+    border-radius: 6px;
+}
+
+/* ==================== ÁREA CENTRAL ==================== */
+#centerArea {
+    background: #2d2d2d;
+    border: 1px solid #4b5563;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#boxModulos {
+    background: #2d2d2d;
+    border: 1px solid #4b5563;
+    border-radius: 10px;
+}
+
+/* ==================== BOTÕES DA HOME ==================== */
+QPushButton#btnModuloCadastrar {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #10b981, stop:1 #059669);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: 700;
+    font-size: 14pt;
+}
+QPushButton#btnModuloCadastrar:hover { background: #047857; }
+
+QPushButton#btnModuloListar {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #3b82f6, stop:1 #2563eb);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: 700;
+    font-size: 14pt;
+}
+QPushButton#btnModuloListar:hover { background: #1d4ed8; }
+
+QPushButton#btnModuloMateriais {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #f59e0b, stop:1 #d97706);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: 700;
+    font-size: 14pt;
+}
+QPushButton#btnModuloMateriais:hover { background: #b45309; }
+
+QPushButton#btnModuloBiblioteca {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #8b5cf6, stop:1 #7c3aed);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: 700;
+    font-size: 14pt;
+}
+QPushButton#btnModuloBiblioteca:hover { background: #6d28d9; }
+
+QPushButton#btnModuloIndicadores {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #ef4444, stop:1 #dc2626);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: 700;
+    font-size: 14pt;
+}
+QPushButton#btnModuloIndicadores:hover { background: #b91c1c; }
+
+QPushButton#btnModuloAssistente {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #14b8a6, stop:1 #0d9488);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: 700;
+    font-size: 14pt;
+}
+QPushButton#btnModuloAssistente:hover { background: #0f766e; }
